@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "rubymod",
+  "version": "${version}",
+
+  "name": "Ruby Mod",
+  "description": "This is a Mod about Ruby,The Brian Make it.",
+  "authors": [
+    "Brian_stars"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.Brian_stars.rubymod.BrianRubyMod"
+    ]
+  },
+  "mixins": [
+    "rubymod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
+
